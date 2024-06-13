@@ -24,3 +24,7 @@ export function buildSign(occasion, name) {
  *
  * @returns {string} template string based on age
  */
+
+export function buildBirthdaySign(age) {
+    return `Happy Birthday! What a ${age >= 50 ? 'mature' : 'young'} fellow you are.`
+  }
