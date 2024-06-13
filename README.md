@@ -1,0 +1,1 @@
+In this exercise you'll be writing code to help a sign company create custom messages for their signs.
