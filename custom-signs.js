@@ -37,3 +37,8 @@ export function buildBirthdaySign(age) {
  *
  * @returns {string} multi-line template string
  */
+
+export function graduationFor(name, year) {
+    return `Congratulations ${name}!\nClass of ${year}`
+  }
+  
