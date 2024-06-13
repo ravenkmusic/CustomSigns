@@ -16,4 +16,11 @@
 export function buildSign(occasion, name) {
     return `Happy ${occasion} ${name}!`;
   }
-  
+
+/**
+ * Build a birthday sign that conditionally formats the return string.
+ *
+ * @param {number} age
+ *
+ * @returns {string} template string based on age
+ */
